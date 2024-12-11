@@ -32,7 +32,7 @@
     </scm>
 
     <properties>
-        <surefireArgLine></surefireArgLine>
+        <surefireArgLine/>
         <!-- Build Commands-->
         <installToLocalRepository>mvn clean install -DskipTests</installToLocalRepository>
         <publishJavaDocs>mvn resources:resources javadoc:javadoc scm-publish:publish-scm</publishJavaDocs>
@@ -586,7 +586,7 @@
         <dependency>
             <groupId>com.google.crypto.tink</groupId>
             <artifactId>tink-awskms</artifactId>
-            <version>1.10.1</version>
+            <version>1.11.0</version>
             <exclusions>
                 <exclusion>
                     <groupId>com.google.auto.service</groupId>
